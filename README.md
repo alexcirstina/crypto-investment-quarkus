@@ -2,7 +2,7 @@
 
 
 ## Tech
-  - Java 17 Quarkus, PostgreSQL, Docker, Caffeine Cache, Smallrye fault tolerance (Rate limiting - experimental)
+  - Java 17, Quarkus, PostgreSQL, Docker, Caffeine Cache, Smallrye fault tolerance (Rate limiting - experimental)
 
 ## Prerequisites
  - JDK 17
