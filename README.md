@@ -8,13 +8,13 @@
 
 ## Prerequisites
  - JDK 17
- - Docker Daemon
+ - Docker Daemon (e.g. free:  Rancher Desktop)
 
 ## Api
  
  - GET - http://localhost:8080/stats/{symbol}
- - GET - http://localhost:8080/stats//normalized-range-desc
- - GET - http://localhost:8080/stats//normalized-range-desc/{date}
+ - GET - http://localhost:8080/stats/normalized-range-desc
+ - GET - http://localhost:8080/stats/normalized-range-desc/{date}
 
 {date: yyyy-MM-dd} - CSV data is between 2022-01-01 - 2022-01-31
 
