@@ -1,22 +1,25 @@
 # crypto-investment
 
-## Features
- - Postgresql db
- - Caching
- - Rate limiting (experimental): max 15 requests / 2min
- - some exception handling =D
+
+## Tech
+
+    Java 17, Quarkus, PostgreSQL, Docker, Caffeine Cache, Smallrye fault tolerance (Rate limiting - experimental)
 
 ## Prerequisites
  - JDK 17
  - Docker Daemon (e.g. free:  Rancher Desktop)
 
 ## Api
+
+Rate limiting (experimental): max 15 requests / 2min
  
  - GET - http://localhost:8080/stats/{symbol}
  - GET - http://localhost:8080/stats/normalized-range-desc
  - GET - http://localhost:8080/stats/normalized-range-desc/{date}
 
-{date: yyyy-MM-dd} - CSV data is between 2022-01-01 - 2022-01-31
+Where: 
+- {symbol} - [BTC, ETH, DOGE, LTC, XRP] ;
+- {date: yyyy-MM-dd} - CSV data is between 2022-01-01 - 2022-01-31
 
 ## How to run
 
