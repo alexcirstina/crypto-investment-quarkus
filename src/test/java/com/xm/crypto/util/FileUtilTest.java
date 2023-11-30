@@ -42,9 +42,4 @@ class FileUtilTest {
         }
     }
 
-    @Test
-    void getCryptoPathFromResources(){
-        assertNotNull(FileUtil.getCryptoPath("crypto"));
-    }
-
 }

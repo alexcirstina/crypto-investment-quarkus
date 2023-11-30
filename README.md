@@ -12,6 +12,9 @@
 
 Rate limiting (experimental): max 15 requests / 2min
  
+OpenAPI: http://localhost:8080/q/swagger-ui/
+
+Endpoints:
  - GET - http://localhost:8080/stats/{symbol}
  - GET - http://localhost:8080/stats/normalized-range-desc
  - GET - http://localhost:8080/stats/normalized-range-desc/{date}
