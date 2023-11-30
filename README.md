@@ -32,6 +32,8 @@ Use a terminal, make sure you are in the folder of the application.
 
 ### Run using Docker
 
+This will start containers for: application, PostgreSQL and pgadmin.
+
 ```shell
  docker-compose up -d --build
 ```
